@@ -10,20 +10,3 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   });
 });
-
-document.querySelectorAll('.card img').forEach(img => {  
-  img.addEventListener('click', function() {  
-      const modal = document.getElementById('imageModal');  
-      const modalImg = document.getElementById('img01');  
-      const captionText = document.getElementById('caption');  
-
-      modal.style.display = "block";  
-      modalImg.src = this.src; 
-      captionText.innerHTML = this.alt;  
-  });  
-});  
-
-// Menutup modal ketika tombol close diklik  
-document.querySelector('body').addEventListener('click', function() {  
-  document.getElementById('imageModal').style.display = "none";  
-});  
