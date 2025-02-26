@@ -1,6 +1,9 @@
 .bg-lokal {
     background-color:#061626;;
 }
+#about{
+    height: 100vh;
+}
 
 body {
     background-color: #04101d;
@@ -113,6 +116,9 @@ body {
     }
     .home{
         height: 100vh;
+    }
+    #about{
+        height: auto;
     }
 }
 
