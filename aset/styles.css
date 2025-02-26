@@ -44,6 +44,11 @@ body {
     margin-bottom: 20px;
 }
 
+.undescore-about{
+    width: 8em;
+    height: 4px;
+}
+
 .vertical-line {
     position: relative;
     width: 2px;
